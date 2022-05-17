@@ -25,7 +25,6 @@ public class CollectionTestSuite {
     @Test
     void testOddNumbersExterminatorEmptyList() {
 
-
         //Given - jaki stan ma aplikacja na dany moment testowania metody
         List <Integer> numbersList = new ArrayList<Integer>();
         OddNumbersExterminator exterminator = new OddNumbersExterminator();
@@ -40,16 +39,27 @@ public class CollectionTestSuite {
 
     @Test
      void testOddNumbersExterminatorNormalList(){
-        //Given
+        //Given - jaki stan ma aplikacja na dany moment testowania metody
         List <Integer> numbersList = new ArrayList<Integer>();
-        for (Integer number : numbersList){
-                numbersList.add(number);
-            }
+        numbersList.add(1);
+        numbersList.add(2);
+        numbersList.add(3);
+        numbersList.add(4);
+        numbersList.add(5);
+        numbersList.add(6);
+
+        List <Integer> expectedList = new ArrayList<Integer>();
+        expectedList.add(2);
+        expectedList.add(4);
+        expectedList.add(6);
+
         OddNumbersExterminator exterminator = new OddNumbersExterminator();
-        //When
-        exterminator.exterminate(numbersList);
+        //When - co będe testował
         List <Integer> resultList = exterminator.exterminate(numbersList);
-        //Then
-        Assertions.assertEquals(numbersList, resultList);
+
+        //Then - co będę oczekiwał od tego testu
+
+        Assertions.assertEquals(expectedList, resultList );
+
     }
 }
