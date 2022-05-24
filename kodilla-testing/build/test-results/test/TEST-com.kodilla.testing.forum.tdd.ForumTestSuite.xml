@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.forum.tdd.ForumTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-22T15:29:26" hostname="LAPTOP-LTN46TL5" time="0.001">
+  <properties/>
+  <testcase name="When created SimpleUser with realName, then getRealName should return real user name" classname="com.kodilla.testing.forum.tdd.ForumTestSuite" time="0.001"/>
+  <testcase name="When created SimpleUser with name, then getUsername should return correct name" classname="com.kodilla.testing.forum.tdd.ForumTestSuite" time="0.0"/>
+  <system-out><![CDATA[Test Suite: begin
+Test Case: begin
+Testing Filip Sokolowski
+Test Case: end
+Test Case: begin
+Test Case: end
+Test Suite: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

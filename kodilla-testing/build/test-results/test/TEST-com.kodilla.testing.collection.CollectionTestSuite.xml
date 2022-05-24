@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.testing.collection.CollectionTestSuite" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-05-22T15:29:26" hostname="LAPTOP-LTN46TL5" time="0.022">
+  <properties/>
+  <testcase name="Test checking if the class worked when the list is empty" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.02"/>
+  <testcase name="Test checking if the class worked correctly when the list contains even and odd numbers" classname="com.kodilla.testing.collection.CollectionTestSuite" time="0.002"/>
+  <system-out><![CDATA[Test Case: begin
+Test Case: end
+Test Case: begin
+Test Case: end
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
